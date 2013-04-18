@@ -4,6 +4,13 @@
 #  }
 #end
 
+#test using cron_check
+#require_recipe "cron_check"
+
+
+#test nginx logrotation
+require_recipe "nginx_logrotate" 
+
 # uncomment to turn on thinking sphinx/ultra sphinx. Remember to edit cookbooks/sphinx/recipes/default.rb first!
 # require_recipe "sphinx"
 
